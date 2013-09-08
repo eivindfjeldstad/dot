@@ -11,8 +11,8 @@
 
 ### dot.set(object, path, value)
 ```js
-  dot.set(obj, 'cool.aid', 'rocks');
-  assert(obj.cool.aid === 'rocks');
+dot.set(obj, 'cool.aid', 'rocks');
+assert(obj.cool.aid === 'rocks');
 ```
 
 ### dot.get(object, path)
