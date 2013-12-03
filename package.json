@@ -1,0 +1,18 @@
+{
+  "name": "eivindfjeldstad-dot",
+  "version": "0.0.1",
+  "description": "Get and set object properties with dot notation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": "eivindfjeldstad/dot",
+  "keywords": [
+    "dot",
+    "notation",
+    "properties",
+    "object",
+    "path"
+  ],
+  "license": "MIT"
+}
