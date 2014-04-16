@@ -2,7 +2,7 @@
   "name": "dot",
   "repo": "eivindfjeldstad/dot",
   "description": "Get and set object properties with dot notation",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {},
   "development": {},
