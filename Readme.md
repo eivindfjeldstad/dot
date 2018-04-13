@@ -1,6 +1,8 @@
 
 # dot
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eivindfjeldstad/dot.svg)](https://greenkeeper.io/)
+
   Get and set object properties with dot notation
 
 ## Installation
