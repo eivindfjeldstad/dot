@@ -15,6 +15,14 @@ var tests = module.exports = {
     obj.cool.aid = 'rocks';
     var value = dot.get(obj, 'cool.aid');
     assert(value === 'rocks');
+  },
+
+  'test delete': function () {
+    var obj = {};
+    obj.cool = {};
+    obj.cool.aid = 'rocks';
+    dot.delete(obj, 'cool.aid');
+    assert(!obj.cool.hasOwnProperty('aid'))
   }
 }
 

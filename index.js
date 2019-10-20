@@ -45,3 +45,25 @@ exports.get = function (obj, path) {
 
   return obj[attr];
 };
+
+/**
+ * Delete given `path`
+ *
+ * @param {Object} obj
+ * @param {String} path
+ * @return {Mixed}
+ * @api public
+ */
+
+exports.delete = function (obj, path) {
+  var segs = path.split('.');
+  var attr = segs.pop();
+
+  for (var i = 0; i < segs.length; i++) {
+    var seg = segs[i];
+    if (!obj[seg]) return;
+    obj = obj[seg];
+  }
+
+  delete obj[attr];
+};
