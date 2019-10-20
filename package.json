@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get and set object properties with dot notation",
   "main": "index.js",
   "scripts": {
