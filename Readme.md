@@ -25,6 +25,7 @@ assert(value === 'rocks');
 ```js
 var value = dot.delete(obj, 'cool.aid');
 assert(!obj.cool.hasOwnProperty('aid'));
+```
 
 ## License
 
