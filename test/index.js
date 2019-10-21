@@ -21,8 +21,11 @@ var tests = module.exports = {
     var obj = {};
     obj.cool = {};
     obj.cool.aid = 'rocks';
+    obj.cool.hello = ['world'];
     dot.delete(obj, 'cool.aid');
+    dot.delete(obj, 'cool.hello.0');
     assert(!obj.cool.hasOwnProperty('aid'))
+    assert(obj.cool.hello.length == 0);
   }
 }
 

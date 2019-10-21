@@ -65,5 +65,9 @@ exports.delete = function (obj, path) {
     obj = obj[seg];
   }
 
-  delete obj[attr];
+  if (Array.isArray(obj)) {
+    obj.splice(path, 1);
+  } else {
+    delete obj[attr];
+  }
 };
